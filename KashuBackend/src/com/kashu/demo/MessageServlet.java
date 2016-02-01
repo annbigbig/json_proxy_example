@@ -109,10 +109,13 @@ public class MessageServlet extends HttpServlet {
 				switch(params.getMessageid()){
 					case "1":
 						json = new JSONObject("{\"messageid\":\"1\",\"title\":\"今天要去那裡跨年呢？\",\"content\":\"我是阿宅今天在想要去那裡跨年\"}");
+						break;
 					case "2":
 						json = new JSONObject("{\"messageid\":\"2\",\"title\":\"我想要喝一杯有誰要和我喝\",\"content\":\"我想喝個爛醉有誰要和我喝的趕快報數\"}");
+						break;
 					case "3":
 						json = new JSONObject("{\"messageid\":\"3\",\"title\":\"要不要賭一百今天不會加班？\",\"content\":\"我可以和你賭一百今天不會再加班了(應該啦)\"}");
+						break;
 					default:
 						break;
 				}
